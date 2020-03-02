@@ -23,5 +23,5 @@ We will examine an SQL database consisting of historic match data for the German
 - Create object-oriented, simple and dynamic NoSQL database
 - Store each team as object in database including the summary statistics desired
 
---**Assumptions:--**  
+**Assumptions:**  
 Note that each game is played in a different location, and this information is not contained in our SQL database. However, since most teams are from Germany, we will use the weather in Berlin, Germany as a proxy for this information. Also, we will count the weather to be raining if it was raining in Berlin on the day the game was played, rather than finding the actual weather at the time of each game at its specific location.
